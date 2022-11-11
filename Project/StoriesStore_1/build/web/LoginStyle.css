@@ -1,0 +1,91 @@
+.login_form{
+    background-color: #ffd155;
+    width: 22%;
+    margin: 50px auto;
+    height: 680px;
+}
+.login_form h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    /*text-transform: uppercase;*/
+}
+.login_form form .username{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.login_form form .username a{
+    font-size: 20px;
+}
+.login_form form .username input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.login_form form .password{
+    margin-left: 50px;
+}
+.login_form form .password a{
+    font-size: 20px;
+}
+.login_form form .password input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.login_form form .checkbox{
+    margin-left: 50px;
+}
+.login_form form .submit input{
+    margin-left: 60px; 
+    width: 70%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+}
+.login_form form .submit input:hover{
+    background-color: #a9a9a9;    
+}
+.login_form .or{
+    text-align: center;
+}
+.login_form form .contact1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login_form form .contact1 div{
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 30px;
+    margin: 0 10px;
+}
+.login_form form .contact1 div:hover{
+    background-color: #a9a9a9;
+}
+.login_form form .contact1 div a{
+    text-decoration: none;
+}
+.login_form form .contact1 .google{
+    color: red;
+}
+
+.login_form form .contact1 .facebook{
+    color: #004cff;
+}
+.login_form .contact2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.login_form .error{
+    text-align: center;
+    margin-top: 20px;
+}
+.login_form .done{
+    text-align: center;
+    margin-top: 20px;   
+}

@@ -1,0 +1,130 @@
+.information_book{
+    background-color: #ffcb5e;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+}
+.information_book .information_book_left img{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.information_book .information_book_right{
+    margin-left: 50px;
+}
+.information_book .information_book_right .book_name{
+    font-size: 35px;
+    margin-top: 30px;
+    color: red;
+}
+.information_book .information_book_right .sold_eva{
+    display: flex;
+    margin-top: 10px;
+}
+.information_book .information_book_right .sold_eva .eva{
+    color: #0097fe;
+}
+.information_book .information_book_right .sold_eva .eva a{
+    color: red;
+}
+.information_book .information_book_right .sold_eva .sold{
+    color: #0097fe;
+}
+.information_book .information_book_right .sold_eva .sold a{
+    color: red;
+}
+.information_book .information_book_right .sold{
+    margin-left: 50px;
+}
+.information_book .information_book_right .book_info{
+    display: flex;
+    margin-top: 10px;
+}
+.information_book .information_book_right .book_info .book_author{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.information_book .information_book_right .book_info .book_types{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.information_book .information_book_right .intro{
+    margin-top: 20px;
+    max-width: 650px;
+    text-align: justify;
+}
+.information_book .information_book_right .book_price{
+    margin-top: 20px;
+    color: black;
+    font-size: 22px;
+}
+.information_book .information_book_right .book_price a{
+    color: red;
+}
+.information_book .information_book_right .buy{
+    margin-top: 20px;
+    display: flex;
+}
+.information_book .information_book_right .buy div{
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+.information_book .information_book_right .buy button{
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-left: 1px solid black;
+}
+.information_book .information_book_right .buy button:first-child{
+    border:none;
+    border-right: 1px solid black;    
+}
+.information_book .information_book_right .buy input{
+    border: none;
+    outline: none;
+    width: 60px;
+    padding: 5px 0;
+    text-align: center;
+}
+.information_book .information_book_right .book_cart_buy{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.information_book_right .book_cart_buy .book_cart{
+    background-color: #ff9d00;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.information_book_right .book_cart_buy .book_cart a{
+    text-decoration: none;
+    color: black;
+}
+.information_book_right .book_cart_buy .book_cart input{
+    border: none;
+    width: 160px;
+    margin-left: 10px;
+    background-color: #ff9d00;
+}
+.information_book_right .book_cart_buy .book_buy{
+    background-color: #ff9d00;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-left: 50px;
+}
+.information_book_right .book_cart_buy .book_buy input{
+    border: none;
+    width: 100px;
+    margin-left: 10px;
+    background-color: #ff9d00;    
+}

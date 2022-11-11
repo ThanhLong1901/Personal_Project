@@ -1,0 +1,66 @@
+.static{
+    text-align: center;
+}
+.static h1{
+    color: #ff1b00;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.static_child_cirlce .cirlce_order{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ff1b00;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.static_child_cirlce .cirlce_order hr:first-child{
+    margin-right: 0px;
+}
+.static_child_cirlce .cirlce_order hr{
+    width: 300px;
+    margin-left: 0px;
+}
+.static_child_cirlce .cirlce{
+    padding-left: 450px;
+}
+.pillar_static{
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 250px;
+    font-size: 20px;
+    color: #ff1b00;
+}
+.pillar .pillar_static hr:first-child{
+    margin-right: 0px;
+}
+.pillar .pillar_static hr{
+    width: 400px;
+    margin-left: 0px;
+}
+.pillar #chart-div{
+    padding-left: 500px;
+}
+
+.area{
+    margin-top: 300px;
+}
+.area .area_static{
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 250px;
+    font-size: 20px;
+    color: #ff1b00;
+}
+.area .area_static hr{
+    width: 400px;
+    margin-left: 0px
+}
+.area .area_static hr:first-child{
+    margin-right: 0px;
+}
+.area #chart_div1{
+    padding-left: 300px;
+}

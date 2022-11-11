@@ -1,0 +1,109 @@
+.signup_form{
+    background-color: #ffd155;
+    width: 24%;
+    margin: 50px auto;
+    height: 600px;
+}
+.signup_form h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    /*text-transform: uppercase;*/
+}
+.signup_form form .username{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.signup_form form .username a{
+    font-size: 20px;
+}
+.signup_form form .username input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.signup_form form .newpassword{
+    margin-left: 50px;
+}
+.signup_form form .newpassword a{
+    font-size: 20px;
+}
+.signup_form form .newpassword input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.signup_form form .renewpassword{
+    margin-left: 50px;
+}
+.signup_form form .renewpassword a{
+    font-size: 20px;
+}
+.signup_form form .renewpassword input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.signup_form form .submit input{
+    margin-left: 60px; 
+    width: 70%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.signup_form form .submit input:hover{
+    background-color: #a9a9a9;    
+}
+.signup_form .or{
+    text-align: center;
+}
+.signup_form form .contact1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.signup_form form .contact1 div{
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 30px;
+    margin: 0 10px;
+}
+.signup_form form .contact1 div:hover{
+    background-color: #a9a9a9;  
+}
+.signup_form form .contact1 div a{
+    text-decoration: none;
+}
+.signup_form form .contact1 .google{
+    color: red;
+}
+.signup_form form .contact1 .facebook{
+    color: #004cff;
+}
+.signup_form .contact2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.signup_form form .contact3{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.signup_form form .contact3 a{
+     text-decoration: none;   
+}
+.signup_form .error{
+    text-align: center;
+    margin-top: 20px;
+}
+.signup_form .done{
+    text-align: center;
+    margin-top: 20px;
+}

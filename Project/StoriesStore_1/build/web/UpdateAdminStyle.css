@@ -1,0 +1,105 @@
+.forget_form{
+    background-color: #ffd155;
+    width: 25%;
+    margin: 50px auto;
+    height: 670px;
+}
+.forget_form h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    /*text-transform: uppercase;*/
+}
+.forget_form form .username{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.forget_form form .username a{
+    font-size: 20px;
+}
+.forget_form form .username input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.forget_form form .newpassword{
+    margin-left: 50px;
+}
+.forget_form form .newpassword a{
+    font-size: 20px;
+}
+.forget_form form .newpassword input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.forget_form form .renewpassword{
+    margin-left: 50px;
+}
+.forget_form form .renewpassword a{
+    font-size: 20px;
+}
+.forget_form form .renewpassword input{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    width: 86%;
+}
+.forget_form form .submit input{
+    margin-left: 60px; 
+    width: 70%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.forget_form form .submit input:hover{
+    background-color: #a9a9a9;    
+}
+.forget_form .or{
+    text-align: center;
+}
+.forget_form form .contact1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.forget_form form .contact1 div{
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 30px;
+    margin: 0 10px;
+}
+.forget_form form .contact1 div:hover{
+    background-color: #a9a9a9;  
+}
+.forget_form form .contact1 div a{
+    text-decoration: none;
+}
+.forget_form form .contact1 .google{
+    color: red;
+}
+.forget_form form .contact1 .facebook{
+    color: #004cff;
+}
+.forget_form .contact2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.forget_form form .contact3{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.forget_form form .contact3 a{
+     text-decoration: none;   
+}
+.forget_form .error{
+    text-align: center;
+    margin-top: 20px;
+}
